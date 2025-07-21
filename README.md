@@ -1,4 +1,4 @@
-# Advanced Fraud Detection System
+#  Fraud Detection System
 
 This project implements a comprehensive fraud detection system using multiple machine learning algorithms and advanced feature engineering techniques.
 
