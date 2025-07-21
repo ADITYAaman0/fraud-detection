@@ -32,14 +32,16 @@ This project implements a comprehensive fraud detection system using multiple ma
    python run_with_sample.py <sample_size>
    ```
 
-## Results
-- **Random Forest**: Accuracy 99.97%, F1-Score 99.94%, ROC-AUC 99.97%
-- **XGBoost**: Accuracy 99.93%, F1-Score 99.88%, ROC-AUC 99.99%
-- **Logistic Regression**: Accuracy 99.85%, F1-Score 99.73%, ROC-AUC 99.92%
-- **Meta Ensemble**: Accuracy 99.93%, F1-Score 99.88%, ROC-AUC 99.94%
+## Results (1,000,000 Samples)
+- **Random Forest**: Accuracy 100.00%, F1-Score 99.91%, ROC-AUC 99.95%
+- **XGBoost**: Accuracy 100.00%, F1-Score 99.85%, ROC-AUC 99.98%
+- **Logistic Regression**: Accuracy 99.99%, F1-Score 99.60%, ROC-AUC 99.98% (**Best Performer**)
+- **Meta Ensemble**: Accuracy 100.00%, F1-Score 99.85%, ROC-AUC 99.91%
 
-## Important Features
-- Top feature: `step`
+## Top Important Features
+1. `amount_equals_old_balance` (28.54%)
+2. `step` (25.51%)
+3. `balance_diff_orig` (11.74%)
 
 ## Visualization
 - Evaluation plots and feature importance plots have been saved:

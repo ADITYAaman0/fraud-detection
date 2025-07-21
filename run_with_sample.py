@@ -11,7 +11,7 @@ def main():
     print("="*60)
     
     # Get sample size from command line or use default
-    sample_size = 50000  # Default sample size
+    sample_size = 2000000  # Maximum sample size for GPU utilization
     
     if len(sys.argv) > 1:
         try:
